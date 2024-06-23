@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+.item{
+    /* height: 40px; */
+    background-color: brown;
+    margin: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.item-1{
+    /* grid-column-start: 3; */
+    /* grid-column-end: 5; */
+    /* grid-row-start: 2; */
+    /* grid-row-end: 3; */
+    height: 100%;
+}

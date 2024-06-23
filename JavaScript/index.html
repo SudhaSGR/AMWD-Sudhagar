@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <style>
+        .a{
+            padding: 1%;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h1>Java Script</h1>
+
+    <button onclick="showAlet()"> Click Me</button>
+    <input id="inputChange" type="text" onchange="onChanage()">
+
+    <div id="mouse" onmouseover="mouseOver()" onmouseout="mouseOut()" style="background-color: brown; width: 400px; height: 400px;"> </div>
+    <br><br><br><br><br><br><br>
+
+
+    <input id="key" onkeydown="onKeyDown()" onkeypress="onKeyPress()" onkeyup="onKeyUP()" type="text">
+    <br><br><br><br><br><br><br>
+    <h1 id="dispaly"> a </h1>
+    <br><br><br><br><br><br><br>
+
+
+    <div  onmouseenter="tonMouseEnter()" onmouseleave="onMouseLeave()" id="task" style="width: 300px; height: 150px; border: 1px black solid; background-image: url(./img1.png);"> </div>
+    <br><br><br>
+    <div>
+        <input onkeyup="changeText()" type="text" id="validation">
+        <label id="error">error</label>
+    </div>
+
+    
+
+    <!-- Internal Script -->
+    <script type = "text/JavaScript">
+        console.log('ACPT');
+    </script>
+    
+
+    <!-- External Script -->
+    <!-- <script type="text/JavaScript" src="./index.js"> </script> -->
+    <script type="text/JavaScript" src="./index.js"></script>
+</body>
+</html>

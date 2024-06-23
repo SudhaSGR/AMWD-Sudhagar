@@ -1,0 +1,96 @@
+#sample{
+    background-color: aqua;
+    color: brown;
+}
+*{
+    margin: 0;
+}
+
+#name{
+    border-radius: 10%;
+    border:  0.5cm solid;
+}
+
+.a {
+    background-color: bisque;
+}
+
+.b{
+    color: aqua;
+}
+
+.c{
+    color: brown;
+}
+
+/* universal */
+
+* {
+    /* background-color:aquamarine; */
+}
+
+/* child */
+
+div > h1{
+    /* background-color: blueviolet; */
+}
+
+#divid > h2{
+    background-color: chartreuse;
+}
+
+.box{
+    background-color: aqua;
+    width: 150px;
+
+    border: 20px solid black;
+    padding: 40px;
+    margin: 30px;
+}
+
+/* .units{ */
+    /* width: 70%; */
+    /* height: 75%; */
+    /* border: 1px solid black; */
+/* } */
+
+.units{
+    width: 70vw;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+.parent{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    background-color:#095bcc ;
+    /* height: 170px; */
+    padding: 25px 25px;
+}
+
+.child1{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+    margin: 30px;
+    color: white;
+}
+
+.child2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button{
+    font: black;
+    font-weight: bold;
+    width: 200px;
+    padding: 13px;
+    background-color: white;
+    margin: 13px;
+    border-radius: 30px;
+    border: 0;
+}

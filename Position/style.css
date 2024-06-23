@@ -1,0 +1,47 @@
+.a{
+    position: static;
+    top: 100px;
+    background-color: red;
+}
+
+div{
+    position: relative;
+}
+
+*{
+    margin: 0;
+}
+.relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* bottom: 0; */
+    
+}
+
+.fixed{
+    border: 2px solid black;
+    width: 150px;
+    padding: 8px;
+    background-color: chartreuse;
+    position: fixed;
+    top: 30px;
+    right: 20px;
+}
+
+.sticky{
+    background-color: cornflowerblue;
+    height: 80px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}

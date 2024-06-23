@@ -1,0 +1,50 @@
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.grid{
+    border: 1px solid black;
+    /* margin: 5%; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* padding: 4%; */
+    /* width: 80%; */
+    height: 100px;
+    /* vertical-align: center; */
+    background-color: gray;
+    margin: 10px;
+    box-shadow: 5px 5px 0 0;
+    
+}
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+    .parent{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+    .parent{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+}
+
+.card{
+    border: 1px black solid;
+    padding: 2%;
+    margin: 5%;
+}
+
+#inputField{
+    border: 2px blue solid;
+    width: 20vw;
+    height: 3vh;
+}
